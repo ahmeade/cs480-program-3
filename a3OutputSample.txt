@@ -1,0 +1,14 @@
+[gleonard@edoras a3]$ make
+gcc -std=c99 -o sim a3.c
+[gleonard@edoras a3]$ ./sim
+End of First Fit Allocation
+Average External Fragments Each Request: 1.280800
+Average Nodes Transversed Each Allocation: 5.546109
+Percentage Allocation Requests Denied Overall: 0.338915%
+
+End of Best Fit Allocation
+Average External Fragments Each Request: 1.423900
+Average Nodes Transversed Each Allocation: 9.982628
+Percentage Allocation Requests Denied Overall: 0.019964%
+
+[gleonard@edoras a3]$
